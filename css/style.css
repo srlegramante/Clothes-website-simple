@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	font-family: 'Arial', 'sans-serif';
+	font-size: 10px;
+}
+body{
+	background: black;
+}
+.logo-text h1{
+	background: black;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+.logo-text2 h1{
+	font-size: 15px;
+	font-family: 'Andalus';
+	padding: 5px;
+	background: whitesmoke;
+}
+.banner{
+	background: url(..img/banner.jpg);
+	width: 1280px;
+	height: 80px;
+}
+ul{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 0px;
+	display: block;
+	font-size: 35px;
+}
+ul li:hover{
+	background: black;
+}
+ul ul{
+	position: absolute;
+	min-width: 200px;
+	display: none;
+	background: yellowgreen;
+}
+ul ul li{
+	display: block;
+	background: #e3e3e3;
+}
+ul li:hover ul{
+	display: block;
+}
+.col-md-4 img{
+	width: 400px;
+	height: 400px;
+}
+
+
